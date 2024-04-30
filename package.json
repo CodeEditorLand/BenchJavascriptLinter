@@ -1,13 +1,35 @@
 {
-  "name": "bench-javascript-linter",
-  "version": "0.0.0",
-  "license": "MIT",
-  "private": true,
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "6.4.1",
-    "@typescript-eslint/parser": "6.4.1",
-    "eslint": "8.48.0",
-    "typescript": "5.2.2",
-    "oxlint": "0.0.10"
-  }
+	"name": "bench-javascript-linter",
+	"version": "0.0.1",
+	"private": false,
+	"keywords": [
+		"land"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/BenchJavaScriptLinter#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/BenchJavaScriptLinter/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/BenchJavaScriptLinter.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6",
+		"oxlint": "0.0.10"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
