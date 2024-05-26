@@ -10,5 +10,5 @@ echo ${OXC}
 echo ${ESLINT}
 
 hyperfine -w 5 -i \
-  -n oxc "${OXC}" \
-  -n eslint "${ESLINT}"
+	-n oxc "${OXC}" \
+	-n eslint "${ESLINT}"
