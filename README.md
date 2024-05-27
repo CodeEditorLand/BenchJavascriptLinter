@@ -1,13 +1,12 @@
 # Benchmark for Oxc vs ESLint
 
-This benchmark only compares with ESLint and does not compare against
-[Biome](https://biomejs.dev) because the rules do not match.
+This benchmark only compares with ESLint and does not compare against [Biome](https://biomejs.dev) because the rules do not match.
 
 ## Input
 
--   uses the `vscode/src` directory, which contains 3684 files to lint
--   See .eslintrc.json for ESLint configuration.
--   @typescript-eslint is required for TypeScript
+* uses the `vscode/src` directory, which contains 3684 files to lint
+* See .eslintrc.json for ESLint configuration.
+* @typescript-eslint is required for TypeScript
 
 ## Results
 
