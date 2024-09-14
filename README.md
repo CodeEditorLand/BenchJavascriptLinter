@@ -62,6 +62,39 @@ Summary
    68.09 ± 2.45 times faster than eslint
 ```
 
+## 13th Gen Intel(R) i9-13980HX 24-cores (8p / 16e) 
+```
+Benchmark 1: oxc
+  Time (mean ± σ):      28.7 ms ±   3.0 ms    [User: 13.3 ms, System: 20.6 ms]
+  Range (min … max):    23.1 ms …  44.3 ms    119 runs
+
+Benchmark 2: eslint
+  Time (mean ± σ):     374.9 ms ±   3.9 ms    [User: 416.3 ms, System: 67.2 ms]
+  Range (min … max):   367.6 ms … 382.5 ms    10 runs
+
+Summary
+  'oxc' ran
+   13.07 ± 1.38 times faster than 'eslint'
+```
+
+## Intel core i5-4590
+
+```
+Benchmark 1: oxc
+  Time (mean ± σ):      1.197 s ±  0.065 s    [User: 3.590 s, System: 0.273 s]
+  Range (min … max):    1.147 s …  1.314 s    10 runs
+
+  Warning: Ignoring non-zero exit code.
+
+Benchmark 2: eslint
+  Time (mean ± σ):     82.076 s ±  5.129 s    [User: 126.155 s, System: 3.591 s]
+  Range (min … max):   77.457 s … 91.170 s    10 runs
+
+Summary
+  'oxc' ran
+   71.68 ± 4.81 times faster than 'eslint'
+```
+
 ## Run
 
 ```bash
