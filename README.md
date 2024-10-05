@@ -1,6 +1,7 @@
 # Benchmark for Oxc vs ESLint
 
-This benchmark only compares with ESLint and does not compare against [Biome](https://biomejs.dev) because the rules do not match.
+This benchmark only compares with ESLint and does not compare against
+[Biome](https://biomejs.dev) because the rules do not match.
 
 ## Summary
 
@@ -8,9 +9,9 @@ Oxlint is 50x - 100x faster than ESLint depending on the number of CPU cores.
 
 ## Input
 
-* uses the `vscode/src` directory, which contains 3684 files to lint
-* See .eslintrc.json for ESLint configuration.
-* @typescript-eslint is required for TypeScript
+-   uses the `vscode/src` directory, which contains 3684 files to lint
+-   See .eslintrc.json for ESLint configuration.
+-   @typescript-eslint is required for TypeScript
 
 ## Results
 
@@ -67,6 +68,7 @@ Summary
 ```
 
 ## 13th Gen Intel(R) i9-13980HX 24-cores (8p / 16e)
+
 ```
 Benchmark 1: oxc
   Time (mean ± σ):      28.7 ms ±   3.0 ms    [User: 13.3 ms, System: 20.6 ms]
