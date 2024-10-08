@@ -1,6 +1,6 @@
 {
 	"devDependencies": {
-		"oxlint": "0.9.9"
+		"oxlint": "0.9.10"
 	},
 	"name": "bench-javascript-linter"
 }
