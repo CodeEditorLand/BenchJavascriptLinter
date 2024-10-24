@@ -1,6 +1,14 @@
 {
-	"devDependencies": {
-		"oxlint": "0.10.2"
-	},
-	"name": "bench-javascript-linter"
+  "name": "bench-javascript-linter",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@typescript-eslint/eslint-plugin": "^8.11.0",
+    "@typescript-eslint/parser": "^8.11.0",
+    "eslint": "^9.13.0",
+    "oxlint": "^0.10.1",
+    "typescript": "^5.6.3"
+  }
 }
